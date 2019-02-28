@@ -1,0 +1,163 @@
+.navbar{ background:rgb(10, 240, 182);}
+.nav-link , .navbar-brand{ color: #f4f4f4; cursor: pointer;}
+.nav-link{ margin-right: 1em !important;}
+.nav-link:hover{ background: #f4f4f4; color: #rgb(10, 240, 182); border-radius: 5px; border: 1px solid gray;}
+.navbar-collapse{ justify-content: flex-end;}
+.navbar-toggler{  background:rgb(10, 240, 182)!important; border: 2px solid gray; color: black;}
+.active{
+	border: 1px solid gray;
+	border-radius: 5px;
+	background: white;
+	color:rgb(10, 240, 182);
+}
+.navbar-collapse{
+ justify-content: flex-end;
+}
+.fixed-top{
+	position: fixed;
+	top: 0;
+}
+/*header style*/
+.header{
+ background-image: url('./assets/images/computer-on-the-table.jpg');
+ background-attachment: relative;
+ background-size: 100%;
+ background-position: center;
+}
+.overlay{
+ position: absolute;
+ height: 100%;
+ width: 100%;
+ left: 0;
+ top: 0;
+ background: rgba(244, 244, 244, 0.79);
+}
+
+.description{
+    position: absolute;
+    top: 30%;
+    margin: auto;
+    padding: 1em;
+    margin-top: 9em;
+}
+.description h1{
+ color:rgb(10, 240, 182) ;
+}
+.description p{
+ color:#666;
+ font-size: 20px;
+ width: 100%;
+ line-height: 1.5;
+}
+
+/*about me*/
+.about{
+ margin: 2em 0;
+ margin-bottom: 9em;
+ padding: 1em;
+ position: relative;
+}
+.about h1{
+ color:rgb(10, 240, 182);
+ margin: 2em;
+}
+.about img{
+ height: 100%;
+    width: 100%;
+    border-radius: 20%
+}
+.about span{
+ display: block;
+ color: #888;
+ position: absolute;
+ left: 115px;
+}
+.about .desc{
+ padding: 2em;
+ border-left:4px solid #10828C;
+}
+.about .desc h3{
+ color: #10828C;
+}
+.about .desc p{
+ line-height:2;
+ color:#888;
+}
+/*Portfolio*/
+.portfolio{
+ margin: 4em 0;
+    position: relative; 
+    margin-bottom: 9em;
+}
+.portfolio h1{
+ color:rgb(10, 240, 182);
+ margin: 1em; 
+ margin-top: 3em;
+
+}
+.portfolio img{
+  height: 15rem;
+  width: 100%;
+  margin: 1em;
+
+}
+
+.imgHolder {
+    position: relative;
+    margin: 10px;
+    padding: 0;
+}
+.span {
+    position: absolute;
+    text-align: center;
+    background: #4aaaa5;
+    padding: 10px;
+    bottom: 30px;
+    left: 16px;
+    width: 100%;
+}
+
+/*Contact*/
+.contact-form{
+ margin: 9em 0;
+ position: relative;
+
+}
+.contact-form h1{
+ padding:2em 5px;
+ color: rgb(10, 240, 182); 
+}
+.contact-form .right{
+ max-width: 600px;
+}
+.contact-form .right .btn-secondary{
+ background:  rgb(10, 240, 182);
+ color: #fff;
+ border:0;
+}
+.contact-form .right .form-control::placeholder{
+ color: #888;
+ font-size: 16px;
+}
+
+/*footer*/
+ .container{
+	position: relative;
+
+}
+.foot{
+	background-color: rgb(10, 240, 182);
+	color: white;
+	border-top:10px solid darkgray;
+	padding: 2em;
+	text-align: center;
+	position: fixed;
+	bottom: 0;
+	width:100%;
+}
+@media only screen and (max-width: 600px){
+	.foot{
+		display: none;
+	}
+}
+
